@@ -1,4 +1,4 @@
-#Broke Oswald 
+## Broke Oswald 
 
 Team Name : **Ban Code**
 
@@ -9,7 +9,7 @@ Team Members :
 - Anshu Raj(20215052)
 
 Proposed Features - 
-'''
+```
 - Basic Features 
     - Monitoring the income and expenditures
     - Capturing and Organising Transaction Receipts
@@ -20,7 +20,7 @@ Proposed Features -
 - Advanced Features
     - Bot to chat with users and address their queries
     - Product Recommendation to save Money
-'''
+```
 
 Tech Stack - 
 - HTML CSS Bootstrap JS React(Frontend) 
