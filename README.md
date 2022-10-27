@@ -3,10 +3,10 @@
 Team Name : **Ban Code**
 
 Team Members : 
-- Rounak Goswami(20215105) @RG20215105
-- Ankit Sharma(20215176) @ankitsharma29
-- Abhinav Tiwari(20215125) @tiwari4321
-- Anshu Raj(20215052) @meanshuraj
+- Rounak Goswami(20215105) https://github.com/RG20215105
+- Ankit Sharma(20215176) https://github.com/ankitsharma29
+- Abhinav Tiwari(20215125) https://github.com/tiwari4321
+- Anshu Raj(20215052) https://github.com/meanshuraj
 
 Proposed Features - 
 ```
