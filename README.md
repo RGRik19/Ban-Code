@@ -23,7 +23,7 @@ Proposed Features -
 ```
 
 Tech Stack - 
-- HTML CSS Bootstrap JS React(Frontend) 
+- HTML CSS Bootstrap JS (Frontend) 
 - JS Node MongoDB(Backend)
 
 
