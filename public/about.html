@@ -1,13 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About</title>
-    <link rel="stylesheet" href="styles/about.css" class="css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Thambi+2:wght@500&family=Lato:wght@300&family=Poppins:wght@200&family=Sacramento&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h2>This is the about page of our website</h2>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+
+        .main {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/1.avif");
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        body {
+            background-color: #cff4fc;
+            font-family: 'Baloo Bhaijaan 2', cursive;
+            font-family: 'Baloo Thambi 2', cursive;
+        }
+
+        .contant {
+            text-align: center;
+            background-color: rgb(118, 237, 237);
+            width: 70vw;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+            font-size: 4vmin;
+            flex-wrap: wrap;
+        }
+
+        .contant p {
+            padding: 8px;
+
+
+        }
+
+        h1 {
+            border-radius: 20px;
+            text-shadow: 2px 2px 8px red;
+            background: -webkit-linear-gradient(#eee, rgb(63, 169, 172));
+        }
+
+        h3 {
+            color: red;
+        }
+
+        @media screen and (max-width: 1100px) {
+            .contant {
+                width: 100vw;
+                height: 90vh;
+            }
+        }
+    </style>
+    <div class="main">
+        <div class="contant">
+            <h1>Context</h1>
+            <h3>Welcomes To Kharcha Tracker</h3>
+            <p>A kharcha Tracker Website Is Very Helpful in Real life For Tracking your Money and record all the records
+                of
+                Your Money. If you are clueless about how much is your inflow and how much you are spending, you will
+                not
+                know at the end of the month what happened to your money. An expense tracker helps you figure out what
+                is
+                happening to your money, and whether you can afford something you want..
+                Welcome to Kharcha Tracker
+                A kharcha Tracker Website Is Very Helpful in Real life For Tracking your Money and record all the
+                records of
+                Your Money.</p>
+        </div>
+    </div>
 </body>
+
 </html>
