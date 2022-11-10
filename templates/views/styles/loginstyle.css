@@ -1,0 +1,82 @@
+.loginBox{
+    
+    width: 400px;
+    height: 200px;
+    border: 4px black;
+   text-align: ;
+    margin: 10px;
+    background-image:url("image/login.jpg")
+    background-repeat:no-repeat;
+    background-size: 500px;
+    
+    
+    }
+
+    body{
+          
+        background-image:url("image/Untitled\ design.png");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        height:710px;
+        
+        
+    }
+    .creat{
+        background-color:inherit;
+        border:none;
+        color: black;
+        
+        display:inline-block;
+        margin:4px 2px;
+        cursor: pointer;
+        font-size: 16px;
+         
+    }
+    h7{
+        
+         
+  background-repeat:no-repeat;
+  height: 0px;width: 500px;
+  background-attachment:scroll;
+  background-position: center; 
+  
+    }
+
+    form{
+       
+        border:1px solid #ae3d3d;
+        height: 300px;
+        font-weight: 500px;
+        width: 700px;
+        margin:230px;
+        margin-left: 400px;
+         
+    }
+
+    input[type=text], input[type=password],input[type=email] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        
+        
+      }
+ .sign{
+     
+    margin-top: 10px;
+    margin-left: 300px;
+    border-color: black;
+
+ }
+ button{
+ background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+ }  

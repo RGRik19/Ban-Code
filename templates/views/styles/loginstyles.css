@@ -1,0 +1,60 @@
+.loginBox{
+    
+    width: 400px;
+    height: 200px;
+    border: 4px black;
+   text-align: ;
+    margin: 10px;
+    background-image:url("image/login.jpg")
+    background-repeat:no-repeat;
+    background-size: 500px;
+    
+    
+    }
+
+    body{
+          
+        background-image:url("image/money.jpg");
+        background-repeat: no-repeat;
+        background-size:cover;
+        background-position: center;
+        height:710px;
+        
+    }
+    .creat{
+        background-color:inherit;
+        border:none;
+        color: black;
+        
+        display:inline-block;
+        margin:4px 2px;
+        cursor: pointer;
+        font-size: 16px;
+         
+    }
+    h7{
+        
+         
+  background-repeat:no-repeat;
+  height: 0px;width: 500px;
+  background-attachment:scroll;
+  background-position: center; 
+  
+    }
+
+    form{
+       
+        border:10px solid #ae3d3d;
+        height: 300px;
+        font-weight: 500px;
+        width: 700px;
+    }
+
+    input[type=text], input[type=password],input[type=email] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #16b025;
+      }

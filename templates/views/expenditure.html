@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expenditure</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@500&family=Baloo+Thambi+2:wght@500&family=Lato:wght@300&family=Poppins:wght@200&family=Sacramento&display=swap"
+        rel="stylesheet">
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .main {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/expend.avif");
+        background-position: bottom;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    body {
+        font-family: 'Baloo Bhaijaan 2', cursive;
+        font-family: 'Baloo Thambi 2', cursive;
+    }
+
+    .container {
+        width: 60vw;
+        height: 20vh;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 10px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-size: 6vmin;
+        margin: 5px 0px;
+        text-shadow: 2px 2px 0.5px red;
+
+    }
+
+    .input {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 30vw;
+        height: 5vh;
+        font-size: 1.5vmin;
+        margin: 8px 5px;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 0px 10px;
+    }
+
+    button {
+        width: 8vw;
+        height: 5vh;
+        font-size: 2vmin;
+        border: 2px solid black;
+        border-radius: 10px;
+        cursor: pointer;
+        margin: 5px 0px;
+    }
+
+    .head {
+        text-align: center;
+        font-size: 9vmin;
+        border-radius: 20px;
+        text-shadow: 2px 2px 8px red;
+        margin: auto;
+    }
+</style>
+
+<body>
+    <div class="main">
+        <h1 class="head">kharchA TrackeR</h1>
+        <div class="container">
+            <h1>Expenditure</h1>
+            <div class="input">
+                <input type="text" placeholder="Enter the Expenditure...* ">
+                <input type="text" placeholder="Source of Expenditure...* ">
+                <button>Save</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

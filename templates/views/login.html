@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/login.css" class="css">
+    <title>Login</title>
+</head>
+
+<body>
+    <div class="header">
+        <h2>Kharcha Tracker</h2>
+        <p class="smallQuote" id="smallQuote">- All in One Expense Tracker</p>
+    </div>
+
+    <form action="/login" method="post">
+        <div class="loginBox">
+            <h3>LOGIN</h3>
+            <ul>
+                <div class="usernameCredentials" id="usernameCredentials">
+                    <li><label for="uname">Email</label></li>
+                    <li><input type="email" name="email" id="email" required> </li>
+                </div>
+                <div class="passwordCredentials" id="passwordCredentials">
+                    <li>Password</li>
+                    <li> <input type="password" name="password" id="password" required></li>
+                </div>
+                <li><button type="submit" class="loginbtn">Log In</button></li>
+            </ul>
+            <div class="SignupPrompt" id="signup">New to our Website - <a href="#" class="signup">Sign Up</a></div>
+        </div>
+    </form>
+
+</body>
+
+</html>
